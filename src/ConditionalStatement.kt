@@ -18,4 +18,27 @@ fun main() {
     } else {
         println("not String")
     }
+
+    // when
+    val num: Int = 5
+    when(num) {
+        1 -> println("num은 1입니다.")
+        2, 3 -> println("num은 2 또는 3입니다.")
+        in 4.. 10 -> println("num은 4와 10 사이에 있습니다.")
+    }
+
+    val data: Any = "hello world"
+    when(data) {
+        is String -> println("${data}는 String 타입입니다.")
+        is Int -> println("${data}는 Int 타입입니다.")
+        is Boolean -> println("${data}는 Boolean 타입입니다.")
+    }
+
+    val num1 = 5
+    val result = when{
+        num1 == 7 -> println("num1은 5입니다.")
+        num1 == 3 -> println("num1은 3입니다.")
+        else -> println("num1은 다른 수 입니다.")
+    }
+    println(result)
 }

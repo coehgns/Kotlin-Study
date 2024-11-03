@@ -11,6 +11,7 @@ fun main() {
     dog2.introduce()
 
     dog2.bark()
+    cat.introduce()
     cat.meow()
 }
 

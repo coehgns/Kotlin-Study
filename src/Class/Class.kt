@@ -1,3 +1,5 @@
+package Class
+
 fun main() {
     val a = Person("지도현", 3)
     val b = Person("최민수", 4)

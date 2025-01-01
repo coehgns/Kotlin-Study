@@ -16,6 +16,12 @@ fun main() {
         price + 2000
     }
 
+    var price = 9999
+
+    food.let {
+        println("음식 : ${it.name}, 가격 : ${it.price}")
+    }
+
     println("현재 가격 : ${foodPrice}")
 }
 

@@ -11,6 +11,11 @@ fun main() {
         price + 2000
     }
 
+    var foodPrice2 = with(food) {
+        println("음식 : ${food.name}, 가격 : ${food.price}")
+        price + 2000
+    }
+
     println("현재 가격 : ${foodPrice}")
 }
 

@@ -22,6 +22,10 @@ fun main() {
         println("음식 : ${it.name}, 가격 : ${it.price}")
     }
 
+    foodPrice.also {
+        println("음식 : ${it}, 가격 : ${it}")
+    }
+
     println("현재 가격 : ${foodPrice}")
 }
 

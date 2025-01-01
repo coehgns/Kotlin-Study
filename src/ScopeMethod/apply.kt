@@ -6,7 +6,12 @@ fun main() {
         discount()
     }
 
-    println("음식 : ${food.name}, 가격 : ${food.price}")
+    var foodPrice = food.run {
+        println("음식 : ${food.name}, 가격 : ${food.price}")
+        price + 2000
+    }
+
+    println("현재 가격 : ${foodPrice}")
 }
 
 class Food(

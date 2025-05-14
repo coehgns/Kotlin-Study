@@ -1,3 +1,5 @@
+package Default
+
 fun main() {
     var a: Int = 10000
     var b: String = a.toString()

@@ -1,3 +1,5 @@
+package Default
+
 fun main() {
     val MemberFunction = MemberFunction()
     MemberFunction.getDate()

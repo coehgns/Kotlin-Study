@@ -1,3 +1,5 @@
+package Default
+
 // 상속 해줄 클래스는 open이여야 상속을 허용할 수 있음.
 open class Base(p: Int)
 

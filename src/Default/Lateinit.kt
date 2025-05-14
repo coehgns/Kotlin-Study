@@ -1,3 +1,5 @@
+package Default
+
 fun main() {
     lateinit var title: String
 

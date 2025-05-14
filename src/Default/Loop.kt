@@ -1,3 +1,5 @@
+package Default
+
 fun main() {
     // while
     var i: Int = 0

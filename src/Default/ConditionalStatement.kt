@@ -1,3 +1,5 @@
+package Default
+
 fun main() {
     val a: Int = 7
     if(a > 10) {

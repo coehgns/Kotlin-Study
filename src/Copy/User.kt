@@ -1,8 +1,8 @@
-package copy
+package Copy
 
 class User {
     var id = 0
-    var name = "copy"
+    var name = "Copy"
 
     constructor(id: Int, name: String) {
         this.id = id
